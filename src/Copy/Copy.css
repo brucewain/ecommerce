@@ -1,0 +1,62 @@
+@media screen and (min-width: 350px) {
+  .Copy {
+    display: flex;
+    grid-template-rows: repeat(6, auto);
+    padding: 4%;
+    gap: 20px;
+    flex-direction: column;
+
+  }
+
+  .Copy >*{
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 0.7rem;
+    letter-spacing: 0.2rem;
+    color: hsl(26, 100%, 55%);
+  }
+
+  p {
+    color: hsl(219, 9%, 45%);
+  }
+
+  .pricing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 0;
+  }
+
+  .currentprice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10%;
+  }
+
+  .discount {
+    background-color: hsl(25, 100%, 94%);
+    padding: 2% 4%;
+    font-weight: 700;
+    color: hsl(26, 100%, 55%);
+    border-radius: 8px;
+  }
+
+  .oldprice {
+    text-decoration: line-through;
+    color: hsl(220, 14%, 75%);
+    margin: 0;
+  }
+
+  .currentprice > * {
+    margin: 0;
+  }
+
+
+
+}
+
+@media screen and (min-width: 1440px) {
+}
